@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rock, Paper, Scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <div class="header">Rock Paper Scissors</div>
+    <div class="content">
+        <div class="scoreboard">
+            <span class="score" id="userScore">0</span> : <span class="score" id="compScore">0</span>
+        </div>
+        <div class="win" id="outcome"></div>
+        <div class="wtw">
+            <div class="player">User</div>
+            <div class="vs">VS</div>
+            <div class="player">Comp</div>
+            <div class="userchoice" id="userchoice"> <img style="position:relative;top:20px;" src="img/s.png" width="90" height="90"></div>
+            <div class="compchoice" id="compchoice"> <img style="position:relative;top:20px;" src="img/s.png" width="90" height="90"></div>
+        </div>
+        <div class="button-box">
+            <div class="button" style="margin-left:0px;" onclick="main('r')"><img class="pic" src="img/r.png"></div>
+            <div class="button" onclick="main('p')"> <img class="pic" src="img/p.png"> </div>
+            <div class="button" onclick="main('s')"> <img class="pic" src="img/s.png"> </div>
+
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
